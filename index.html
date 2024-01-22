@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--font link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!--header section start-->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-cookie"></i>Sour Candy</a>
+    
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!--header section ends-->
+
+<!--search form-->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!--home section starts-->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>lemon custard cream</h3>
+                    <p>ขนมหวานรสซิตรัสที่มีความนุ่ม ชุ่มฉ่ำ อบอวลไปด้วยกลิ่นและรสของส้มทั้งลูกที่อยู่ภายในเค้ก</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                        <img src=images/home1.jpg width="550" height="750" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>lemon ricotta waffles</h3>
+                    <p>วาฟเฟิลริคอตต้าเลมอนที่มีสัมผัสนุ่มละมุน และมีกลิ่นหอม ตัดกับรสเปรี้ยวจากเลมอน</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                        <img src=images/home2.jpg width="550" height="780" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>classic margarita</h3>
+                    <p>เครื่องดื่มสุดคลาสสิคอย่างมาร์การิต้าที่ประกอบไปด้วยส่วนผสมเพียงไม่กี่อย่างแต่เป็นการผสมผสานที่ลงตัวระหว่างรสเค็ม หวาน และเปรี้ยว</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                        <img src=images/home3.jpg width="550" height="780" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--home section ends-->
+
+<!--dishes section start-->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes1.jpg width="150" height="400" alt="">
+            <h3>mille feuille</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes2.jpg width="150" height="250" alt="">
+            <h3>choco orange cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes3.jpg width="150" height="250" alt="">
+            <h3>souffle pancake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes4.jpg width="150" height="250" alt="">
+            <h3>classic eclairs</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes5.jpg width="150" height="250" alt="">
+            <h3>choco lava cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src=images/dishes6.jpg width="150" height="250" alt="">
+            <h3>citrus rose sangria</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--dishes section ends-->
+
+<!--about section starts-->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <center><img src=images/about.jpg width="350" height="550" alt=""></center>
+        </div>
+
+        <div class="content">
+            <h3>best food in the country</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ratione officia veritatis necessitatibus? Necessitatibus eaque nam, esse, similique alias eius quis doloremque rem corrupti perferendis velit qui magni dicta asperiores.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia amet quae excepturi deleniti numquam maiores quam doloribus, blanditiis officiis molestias.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!--about section ends-->
+
+<!--menu section starts-->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> today's speciality </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu1.jpg alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>fluffy souffle pancake</h3>
+                <p>ซูเฟล่แพนเค้กจากญี่ปุ่น แพนเค้กแสนนุ่มเสมือนนั่งอยู่บนก้อนเมฆ ทั้งหวานทั้งนุ่มละมุน ทานกับผลไม้แสนอร่อย</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$9.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu2.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>cranberry cheesecake</h3>
+                <p>ชีสเค้กสูตรนี้มาในรสชาติของครีมชีสที่มีรสเปรี้ยวเล็กน้อย ทานกับซอสแครนเบอร์รี่หวานอมเปรี้ยว</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$10.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu3.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>lemon blueberry crunch pie</h3>
+                <p>พายที่ละมุนไปด้วยครีมชีส เข้ากันได้ดีกับครัมเบิ้ลกรุบกรอบ และบลูเบอร์รีรสเปรี้ยวอมหวาน</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$11.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu4.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>lemon custard cream tart</h3>
+                <p>ทาร์ตบิสกิตใส่ไส้เลมอนเคิร์ด และครีมสด เหมาะสำหรับคนที่ชอบความสดชื่นของเลมอน</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu5.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>lemon bundt cake</h3>
+                <p>ขนมที่อบในแม่พิมพ์และมีรูตรงกลาง รสชาติกลมกล่อม มีทั้งความหวานจากตัวแป้ง และความเปรี้ยวจากเลมอน</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$9.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu6.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>orange cake</h3>
+                <p>เป็นเค้กที่เหมาะกับฤดูหนาว ความสดชื่นจากส้มเคลือบคาราเมลพร้อมกับเนื้อเค้กที่ชุ่มฉ่ำ</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$10.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu7.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>rasberry macaron</h3>
+                <p>ขนมหวานก้อนกลมสองอันประกบกัน มีไส้ราสเบอร์รีตรงกลาง กรอบนอกนุ่มในและรสชาติหวานหอม</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$11.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu8.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>french toast</h3>
+                <p>ขนมหวานสไตล์ฝรั่งเศส แป้งพัฟเพรสตี้กรอบ ครีมนุ่ม หอม อร่อย</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$12.99</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src=images/menu9.jpg width="450" height="600" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>blood orange sparkler</h3>
+                <p>น้ำโซดาผสมกับส้ม ให้ความสดชื่นและเปรี้ยวหวานจากส้ม</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$9.99</span>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!--menu section ends-->
+<!-- review section starts -->
+<section class="review" id="review">
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+
+
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class ="fas fa-quote-right"></i>
+                <div class="user">
+
+                    <img src="images/ach(1).jpg" alt="">
+                    <div class="user-info">
+                        <h3>achdonothomework</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i></i></i>
+                            <i class="fas fa-star"></i><i></i></i>
+                            <i class="fas fa-star"></i><i></i></i>
+                            <i class="fas fa-star"></i><i></i></i>
+                            <i class="fas fa-star-half-alt"></i>
+                       </div>
+                    </div>
+                </div>
+                <p>อร่อยมากค่ะ</p>
+            </div>
+
+                    <div class="swiper-slide slide">
+                        <i class ="fas fa-quote-right"></i>
+                        <div class="user">
+        
+                            <img src="images/ach2.jpg" alt="">
+                            <div class="user-info">
+                                <h3>achdohomework</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                               </div>
+                            </div>
+                        </div>
+                        <p>อร่อยสุชๆ </p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <i class ="fas fa-quote-right"></i>
+                        <div class="user">
+        
+                            <img src="images/123.jpg" alt="">
+                            <div class="user-info">
+                                <h3>achlovebed</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                                    <i class="fas fa-star"></i><i></i></i>
+                               </div>
+                            </div>
+                        </div>
+                        <p>น่าอีท </p>
+                    </div>
+
+                 
+
+                            <div class="swiper-slide slide">
+                                <i class ="fas fa-quote-right"></i>
+                                <div class="user">
+                
+                                    <img src="images/ach(1).jpg" alt="">
+                                    <div class="user-info">
+                                        <h3>bigger</h3>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i><i></i></i>
+                                            <i class="fas fa-star"></i><i></i></i>
+                                            <i class="fas fa-star"></i><i></i></i>
+                                            <i class="fas fa-star"></i><i></i></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                       </div>
+                                    </div>
+                                </div>
+                                <p>เจ้าของร้านสวย</p>
+        
+    </div>
+</div>
+</div>
+
+
+</section>
+
+                        
+
+    <!-- review section ends-->
+
+   <!-- order section starts -->
+   <section class="order" id="order">
+    <h3 class="sub-heading"> order now</h3>
+    <h1 class="heading"> free and fast </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                  <span>your name</span>
+                  <input type="text" placeholder="enter your name">
+            
+            </div>
+                <div class="input">
+                      <span>your name</span>
+                      <input type="number" placeholder="enter your number">
+                    </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                  <span>your order</span>
+                  <input type="text" placeholder="enter food name">
+            
+            </div>
+                <div class="input">
+                      <span>additional food</span>
+                      <input type="test" placeholder="extra with food">
+                    </div>
+        </div> 
+         <div class="inputBox">
+            <div class="input">
+                  <span>how much</span>
+                  <input type="number" placeholder="how many orders">
+            
+            </div>
+                <div class="input">
+                      <span>date and time</span>
+                      <input type="datetime-local" >
+                    </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                  <span>your address </span>
+                  <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea >
+            
+            </div>
+                <div class="input">
+                      <span>your message</span>
+                    
+                  <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea >
+                    </div>
+        </div>
+        <input type="submit" value="order now" class="btn">
+
+    </form>
+
+
+
+
+   </section>
+    <!-- order section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="script.js"></script>
+
+</body>
+</html>
