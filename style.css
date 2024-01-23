@@ -99,6 +99,7 @@ header .navbar a:hover{
 }
 
 header .icons i,
+header .icons b,
 header .icons a{
     cursor: pointer;
     margin-left: .5rem;
@@ -112,15 +113,26 @@ header .icons a{
     background: #eee;
 }
 
+header .icons .b span{
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+}
+
+
 header .icons i:hover,
+header .icons b:hover,
 header .icons a:hover{
     color: #fff;
     background: #f2808a;
     transform: rotate(360deg);
-}
-header .icons i:hover,
-header .icons b:hover{
-    grid-template-columns: 1fr 50px;
 }
 
 header .icons #menu-bars{
@@ -512,6 +524,8 @@ header .icons #menu-bars{
     }
 
 }
+
+/*review*/
 .review .slide{
     padding: 2rem;
     box-shadow: var(--box-shadow);
@@ -556,6 +570,10 @@ header .icons #menu-bars{
     color: var(--light-color);
 
 }
+
+
+
+/*order*/
 .order form{
     max-width:90rem;
     border-radius: .5rem;
@@ -590,6 +608,10 @@ header .icons #menu-bars{
     margin-bottom: 1rem;
     width: 100%;
 }
+.order form .inputBox .input input:focus,
+.order form .inputBox .input textarea:focus{
+    border: 1rem solid var(--black);
+}
 .order form .inputBox .input textarea{
     height: 20rem;
     resize: none;
@@ -597,3 +619,68 @@ header .icons #menu-bars{
 .order form .btn{
     margin-top: 0;
 }
+
+
+
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+
+
+/*footer*/
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+.footer .box-container .box a:hover{
+   color: var(--black);
+   text-decoration: underline;
+}
+
+
+
+
+
+.footer h1{
+    color: #8c4646;
+    font-size:22px;
+  
+}
+.footer  .boxrr {
+
+    color: var(--light-color);
+    font-size: 12px ;
+    
+}
+
+
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color: var(--black);
+    padding:.5rem;
+    padding-top:1.5rem;
+    margin-top:1.5rem;
+}
+.footer .credit span{
+    color:var(--green);}
+
+    
+
+
+    
